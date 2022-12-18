@@ -76,7 +76,7 @@ function App() {
           <p>{errorText}</p>
         ) : (
           bookData.map((book) => {
-            return <BookCard book={book} />;
+            return <BookCard book={book} key={book.id} />;
           })
         )}
       </div>

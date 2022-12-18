@@ -7,6 +7,7 @@ function Rating({ rating }) {
     <div className="starWrapper">
       {ratingArr.map((_, idx) => (
         <StarFilled
+          key={Math.random() * 10 + idx}
           style={{
             marginTop: '2vh',
             marginBottom: '1vh',

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
   background-color: antiquewhite;
+  font-family: 'Lato', sans-serif;
 }
 .container {
   align-items: center;
@@ -19,8 +22,8 @@ body {
   margin: 2vh 0px;
 }
 .titleInput {
-  width: 50vw !important;
-  height: 5vh !important;
+  width: 50vw;
+  height: 5vh;
   padding: 0rem 0.5rem;
 }
 .alignStart {
@@ -40,7 +43,7 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 40vh;
+  height: 35vh;
   width: 60vh;
   padding: 5vw;
 }
@@ -50,6 +53,7 @@ body {
 }
 .welcomeText {
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .loadingState {
@@ -63,5 +67,37 @@ body {
   .bookResultsWrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 499px) {
+  .welcomeWrapper {
+    width: 20rem;
+    padding: 20px;
+  }
+  .titleInput {
+    width: 20rem;
+    padding: 0rem 0.5rem;
+  }
+  .landingpageImage {
+    width: 12rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 500px) {
+  .welcomeWrapper {
+    width: 25rem;
+    padding: 20px;
+  }
+  .titleInput {
+    width: 35rem;
+    padding: 0rem 0.5rem;
+  }
+  .landingpageImage {
+    width: 15rem;
+    height: 10rem;
+  }
+  .bookResultsWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

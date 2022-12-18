@@ -5,7 +5,7 @@
   width: 12rem;
   margin: 0.5rem;
   align-items: flex-start;
-  border-radius: 4px;
+  border-radius: 0.5rem;
 }
 .bookWrapper:hover {
   -webkit-box-shadow: 13px 13px 36px -19px rgba(20, 20, 20, 0.52);
@@ -22,8 +22,8 @@
 .bookImage {
   width: 12rem;
   height: 18rem;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .m0 {
