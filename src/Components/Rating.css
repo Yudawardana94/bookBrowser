@@ -1,0 +1,8 @@
+.starWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.startEach {
+  margin: 0px 4px;
+}
